@@ -11,15 +11,15 @@
     <div id="app">
       <!-- start of navbar -->
 
-      <nav class="bg-lime-700 rounded m-6 px-2 max-w-7xl mx-auto">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="relative flex items-center justify-between h-16">
+      <nav class="m-6 mx-auto max-w-7xl rounded bg-lime-700 px-2">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <!-- Mobile menu button-->
               <button
                 id="click-me"
                 type="button"
-                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -71,19 +71,19 @@
               </button>
             </div>
             <div
-              class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+              class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
             >
-              <div class="hidden sm:block sm:ml-6">
+              <div class="hidden sm:ml-6 sm:block">
                 <div class="flex items-center space-x-10">
                   <a
                     href="#"
-                    class="font-bold text-3xl text-slate-50"
+                    class="text-3xl font-bold text-slate-50"
                     aria-current="page"
                     >Publicify</a
                   >
                   <div class="flex items-center space-x-4">
                     <a
-                      class="flex bg-white m-2 rounded-full shadow p-2"
+                      class="m-2 flex rounded-full bg-white p-2 shadow"
                       href="#"
                       ><span
                         ><svg
@@ -111,18 +111,18 @@
             <div
               class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
             >
-              <button type="button" class="p-1 rounded-full">
+              <button type="button" class="rounded-full p-1">
                 <span class="sr-only">View notifications</span>
                 <!-- Heroicon name: outline/bell -->
                 <a
-                  class="bg-red-500 m-2 px-2 rounded-full shadow font-semibold text-lg p-2"
+                  class="m-2 rounded-full bg-red-500 p-2 px-2 text-lg font-semibold shadow"
                   href="#"
                   >DONATE</a
                 >
               </button>
 
               <!-- Profile dropdown -->
-              <div class="ml-3 relative">
+              <div class="relative ml-3">
                 <div>
                   <button
                     type="button"
@@ -142,16 +142,16 @@
 
         <!-- Mobile menu, show/hide based on menu state. -->
         <div class="sm:hidden" id="mobile-menu">
-          <div class="px-2 pt-2 pb-3 space-y-1">
+          <div class="space-y-1 px-2 pt-2 pb-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a
               href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-extrabold"
+              class="block rounded-md px-3 py-2 text-base font-extrabold text-gray-300 hover:bg-gray-700 hover:text-white"
               >Publicify</a
             >
             <a
               href="#"
-              class="flex bg-white m-2 rounded-full px-3 py-2 max-w-fit"
+              class="m-2 flex max-w-fit rounded-full bg-white px-3 py-2"
               aria-current="page"
               ><span
                 ><svg
@@ -172,13 +172,13 @@
 
             <a
               href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >About Us</a
             >
 
             <a
               href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >Contact Us</a
             >
           </div>
@@ -186,34 +186,36 @@
       </nav>
 
       <!-- end of navbar -->
-      <div class="flex flex-col items-center space-y-4 mb-10">
-        <h2 class="font-semibold text-2xl text-gray-700">
+      <div class="mb-10 flex flex-col items-center space-y-4">
+        <h2 class="text-2xl font-semibold text-gray-700">
           Are you Aspiring for any Political Position?
         </h2>
         <button
-          class="font-semibold text-3xl bg-lime-700 text-white px-4 py-1 rounded-full"
+          class="rounded-full bg-lime-700 px-4 py-1 text-3xl font-semibold text-white"
         >
           Get Free Designs with Us
         </button>
       </div>
 
-      <div class="flex flex-col items-center space-y-6 mt-8">
-        <h4 class="font-semibold text-lg text-gray-700">Recent Designs</h4>
-        <div class="flex flex-wrap content-center space-x-2 space-y-2">
-          <div class="flex flex-col items-center space-y-1">
+      <div class="mt-8 flex flex-col content-center items-center space-y-6">
+        <h4 class="text-lg font-semibold text-gray-700">Recent Designs</h4>
+        <div
+          class="mx-auto flex max-w-7xl flex-wrap content-center items-center justify-center space-x-2"
+        >
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -225,26 +227,26 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of first card -->
-          <div class="flex flex-col items-center space-y-1">
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -256,26 +258,26 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of second card -->
-          <div class="flex flex-col items-center space-y-1">
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -287,26 +289,26 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of third card -->
-          <div class="flex flex-col items-center space-y-1">
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -318,26 +320,26 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of fourth card -->
-          <div class="flex flex-col items-center space-y-1">
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -349,26 +351,26 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of fifth card -->
-          <div class="flex flex-col items-center space-y-1">
+          <div class="mt-4 flex flex-col items-center space-y-1">
             <img
               src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
               alt="design"
-              class="max-w-lg max-h-40"
+              class="max-h-40 max-w-lg"
             />
             <div class="border-2 px-6">
               <p>Requested by Abdul</p>
-              <div class="flex space-x-2 content-center">
+              <div class="flex content-center space-x-2">
                 <p>From Kano State</p>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 border-2 border-gray-500 rounded-full"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -380,21 +382,145 @@
                 ><img
                   src="/share-arrows-svgrepo-com.svg"
                   alt="share"
-                  class="w-5 h-5 border-2 border-gray-500 rounded-full"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
                 />
               </div>
             </div>
           </div>
           <!-- end of sixth card -->
+          <div class="mt-4 flex flex-col items-center space-y-1">
+            <img
+              src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+              alt="design"
+              class="max-h-40 max-w-lg"
+            />
+            <div class="border-2 px-6">
+              <p>Requested by Abdul</p>
+              <div class="flex content-center space-x-2">
+                <p>From Kano State</p>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    /></svg></span
+                ><img
+                  src="/share-arrows-svgrepo-com.svg"
+                  alt="share"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- end of seventh card -->
+          <div class="mt-4 flex flex-col items-center space-y-1">
+            <img
+              src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+              alt="design"
+              class="max-h-40 max-w-lg"
+            />
+            <div class="border-2 px-6">
+              <p>Requested by Abdul</p>
+              <div class="flex content-center space-x-2">
+                <p>From Kano State</p>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    /></svg></span
+                ><img
+                  src="/share-arrows-svgrepo-com.svg"
+                  alt="share"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- end of eighth card -->
+          <div class="mt-4 flex flex-col items-center space-y-1">
+            <img
+              src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+              alt="design"
+              class="max-h-40 max-w-lg"
+            />
+            <div class="border-2 px-6">
+              <p>Requested by Abdul</p>
+              <div class="flex content-center space-x-2">
+                <p>From Kano State</p>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    /></svg></span
+                ><img
+                  src="/share-arrows-svgrepo-com.svg"
+                  alt="share"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- end of ninth card -->
+          <div class="mt-4 flex flex-col items-center space-y-1">
+            <img
+              src="https://images.unsplash.com/photo-1648240882088-3141dbbcf6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+              alt="design"
+              class="max-h-40 max-w-lg"
+            />
+            <div class="border-2 px-6">
+              <p>Requested by Abdul</p>
+              <div class="flex content-center space-x-2">
+                <p>From Kano State</p>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 rounded-full border-2 border-gray-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    /></svg></span
+                ><img
+                  src="/share-arrows-svgrepo-com.svg"
+                  alt="share"
+                  class="h-5 w-5 rounded-full border-2 border-gray-500"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- end of tenth card -->
         </div>
       </div>
       <!-- end of cards -->
 
       <!-- load more button -->
-      <div class="flex items-center justify-center mt-6">
+      <div class="mt-6 flex items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-16 w-16 text-gray-400 cursor-pointer"
+          class="h-16 w-16 cursor-pointer text-gray-400"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -411,17 +537,17 @@
 
       <!-- footer -->
       <div
-        class="flex flex-col md:flex-row items-center justify-around bg-gray-700 rounded px-2 max-w-7xl mx-auto mt-4"
+        class="m-4 mx-auto flex max-w-7xl flex-col items-center justify-around rounded bg-gray-700 px-2 md:flex-row"
       >
         <button
-          class="bg-red-500 text-white m-2 rounded-full shadow font-semibold text-lg p-2"
+          class="m-2 rounded-full bg-red-500 p-2 text-lg font-semibold text-white shadow"
         >
           DONATE
         </button>
         <p class="text-white">Powered by Sixel Copyright © 2022</p>
         <div class="flex flex-col">
-          <p class="text-white text-sm">Are you are Graphics Designer</p>
-          <button class="text-white bg-lime-700 rounded-full shadow p-2">
+          <p class="text-sm text-white">Are you are Graphics Designer</p>
+          <button class="rounded-full bg-lime-700 p-2 text-white shadow">
             Volunteer with Us
           </button>
         </div>
