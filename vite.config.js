@@ -11,9 +11,10 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        main: resolve(__dirname, "about.html"),
-        main: resolve(__dirname, "contact.html"),
+        about: resolve(__dirname, "about.html"),
+        contact: resolve(__dirname, "contact.html"),
       },
     },
   },
+  base: "/publicify/",
 });
